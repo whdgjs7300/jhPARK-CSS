@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/선택자실습.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>선택자 실습</h1>
+    <!-- ul, ol 태그를 만들어서 ol태그의 li만 백그라운드 컬러색추가 -->
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <ol>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
+
+    <!-- 
+        input type:text에 의사클래스 중 :focus를 사용해서, 
+        글자두께를 두껍게하고 글자색 바꾸기 
+    -->
+    <input type="text">
+
+    <!-- list의 숫자값을 없애고, input:checked 일때 span에 취소줄생성 -->
+    <ol class="list">
+        <li>
+            <input type="checkbox"> <span>내용1</span>
+        </li>
+        <li>
+            <input type="checkbox"> <span>내용2</span>
+        </li>
+        <li>
+            <input type="checkbox"> <p>내용3</p>
+        </li>
+    </ol>
+
+    <!-- ol 리스트를 만들어서 짝수 li의 백그라운드 컬러를 바꾸세요 -->
+    <ol class="li-background">
+        <li>1번째</li>
+        <li>2번째</li>
+        <li>3번째</li>
+        <li>4번째</li>
+        <li>5번째</li>
+    </ol>
+
+</body>
+</html>
